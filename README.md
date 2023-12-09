@@ -5,8 +5,8 @@ In this practical guide, I learned to work with Github, Docker, Bubble.io, and s
 Cloning the Repository and Building the Docker Image Locally:
 
 ```bash
-git clone <repository_url>
-cd <repository_directory>
+git clone https://github.com/sid027/dt1-23
+cd dt1-23
 
 docker build -t dt1-23:latest
 ```
@@ -38,3 +38,16 @@ sudo apt-get install docker
 docker pull olhalohvynenko/dt1-23:latest
 docker run -d -p 5000:5000 olhalohvynenko/dt1-23:latest
 ```
+
+Problems encountered during work:
+
+1. Google Cloud did not want to give out its ip address for requests
+Solution: After clicking buttons I found the domain.
+
+2. Google Cloud does not accept API requests due to subscription restrictions.
+Solution: Send requests directly to Hugging Face.
+
+3. Bubble doesn't provide the usual HTML and CSS code that can be improved in any way. They have developed their own file format that only Bubble understands.
+
+4. It is not possible to deploy an app in Bubble without a subscription.
+Solution: Subscription and deployment
